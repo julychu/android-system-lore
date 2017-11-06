@@ -1,0 +1,274 @@
+
+
+
+=== 11.6周报 ===
+
+http://www.androidweekly.cn/android-dev-weekly-issue-115/
+
+新闻
+
+谷歌 I/O 2017 开发者大会将于 5 月 17-19 日在山景城举办
+
+Android Wear 2.0 和新款智能手表有望在2月8号发布
+
+首批网页应用登陆Android系统
+
+谷歌两轮人形机器人曝光：一跳跨越障碍物
+
+Google改变独占决定：Pixel的指纹通知手势登陆Nexus 5X
+
+Android Wear 2.0最后一个开发者预览版发布
+
+谷歌：所有新款Chromebook都将支持Android应用
+
+[视频]Google 开始对 Android Instant 应用进行“有限测试”
+
+Google 收购 Fabric 开发者平台：收录了来自 Twitter 的团队
+
+Google测试Instant Tethering功能：优化热点设置保持设备在线
+
+Google Pixel / Pixel XL 持续缺货：下单普遍要等到 2-3 月份
+
+Android One项目将会在近期扩展至美国市场
+
+Android端Google应用优化：离线模式可保持搜索条目
+
+Android 之父将打造新智能手机：深度集成AI
+
+教程
+
+Android硬件加速原理与实现简介
+
+在手机客户端尤其是Android应用的开发过程中，我们经常会接触到“硬件加速”这个词。由于操作系统对底层软硬件封装非常完善，上层软件开发者往往对硬件加速的底层原理了解很少，也不清楚了解底层原理的意义，因此常会有一些误解，如硬件加速是不是通过特殊算法实现页面渲染加速，或是通过硬件提高CPU/GPU运算速率实现渲染加速。
+
+聊聊clean code
+
+clean code，顾名思义就是整洁的代码，或者说清晰、漂亮的代码，相信大多数工程师都希望自己能写出这样的代码。也许这是个千人千面的话题，每个工程师都有自己的理解。比如我，从一个天天被骂代码写得烂的人，逐渐学习成长，到现在也能写的出“人模人样”的代码来了。这期间算是积累了一点经验心得，想和大家分享，抛砖引玉。本文主要针对面向对象编程的clean code来阐述，面向过程代码的思路会比较不同，不在本文的讨论范畴。
+
+Android 内存泄漏分析心得
+
+对于C++来说，内存泄漏就是new出来的对象没有delete，俗称野指针；对于Java来说，就是new出来的Object 放在Heap上无法被GC回收；本文通过QQ和Qzone中内存泄漏实例来讲android中内存泄漏分析解法和编写代码应注意的事项。
+
+一起脱去小程序的外套和内衣 - 微信小程序架构解析
+
+微信小程序的公测掀起了学习小程序开发的浪潮，天生跨平台，即用即走、媲美原生体验、完善的文档、高效的开发框架，小程序给开发者带来了很多惊喜。通过这篇文章和大家一起分析小程序的架构，分享开发经验。
+
+Android动态库压缩壳的实现
+
+说起壳可能有的同学并不太了解，简单的说，计算机软件领域所说的壳实际上是一种软件加密技术。与自然界中的壳类似，花生用壳保护种子，乌龟用壳保护自己的身体，而我们写的程序为了在一定程度上防止被逆向分析，也可以给它加壳。壳主要分为两大类：加密壳和压缩壳，加密壳侧重于防止软件被篡改，而压缩壳则侧重于减小软件体积。其实，在Windows上已经有许多壳了，但Android（或者可以说Linux）上的壳相对而言就少了一些。本文就主要讲讲Android动态库（so文件）压缩壳要如何实现。
+
+Espresso浅析和使用
+
+Espresso是一个Google官方提供的Android应用UI自动化测试框架。Google希望，当Android的开发者利用Espresso写完测试用例后，能一边看着测试用例自动执行，一边享受一杯香醇Espresso(浓咖啡)。Espress有3个特点：1.第一个收录在Android Testing Supporting Library底下的测试框架； 2.模拟用户的操作；3.自动等待，直到UI线程Idle，才会执行测试代码。接下来，将从配置、写用例、运行一步步介绍Espresso的使用。
+
+通过ContentProvider多进程共享SharedPreferences数据
+
+开发一个多进程应用的时候，我们往往无法避免在多个进程之间共享数据。 多进程共享数据的方法有很多种，在Android中常用的有：SharedPreferences(多进程模式)、广播、Socket、ContentProvider、Messenger、AIDL等。这些方法适用于不同的使用场景，又有各自的局限性。本文即将介绍的是通过ContentProvider，结合SharedPreferences(以下简称SP)实现的进程间共享设置项的功能。这种方式主要适用于以下场景：在一个进程中进行一些设置，而需要在另一个进程实时读取设置，并根据这些设置来执行功能。
+
+看AspectJ在Android中的强势插入
+
+AOP是Aspect Oriented Programming的缩写，即『面向切面编程』。它和我们平时接触到的OOP都是编程的不同思想，OOP，即『面向对象编程』，它提倡的是将功能模块化，对象化，而AOP的思想，则不太一样，它提倡的是针对同一类问题的统一处理，当然，我们在实际编程过程中，不可能单纯的安装AOP或者OOP的思想来编程，很多时候，可能会混合多种编程思想，大家也不必要纠结该使用哪种思想，取百家之长，才是正道。
+
+微信小程序之自动化亲密接触
+
+山雨欲来风满楼，最近微信小程序相关开发文章吹遍大江南北，亦有摧枯拉朽万象更新之势。问小程序形为何物，直教IT众生怡情悦性高潮迭起。作为一名有着远大理想“包袱”与互联网变革 “使命感”的测试工程师，我再也按耐不住内心中的渴望与好奇，代表测试行业各大门派肩负起了迎接时代变革的挑战。话说经历了围观查看、溜边打探等种种过程，终于在隔壁老王那里弄到了测试体验资格，开始了一场对小程序的自动化亲密接触。
+
+开源库 & App
+
+Boxing
+
+基于MVP模式的Android多媒体选择器
+
+SimpleRecyclerView
+
+A RecyclerView extension for building list more easily
+
+ktor
+
+Web backend framework for Kotlin
+
+CoordinatorTabLayout
+
+TabLayout和CoordinatorLayout相结合的折叠控件
+
+RecyclerStickyHeaderView
+
+Sticky header view or suspending view for RecyclerView.
+
+android-state
+
+A utility library for Android to save objects in a Bundle without any boilerplate.
+
+emoji-java
+
+The missing emoji library for Java
+
+android-mvp-architecture
+
+This repository contains a detailed sample app that implements MVP architecture using Dagger2, GreenDao, RxJava2, FastAndroidNetworking and PlaceholderView
+
+PlanningPoker
+
+Fast and simple Planning Poker Android app. Designed for phones, tablets and Android Wear devices.
+
+Dali
+
+Dali is an image blur library for Android. It contains several modules for static blurring, live blurring and animations.
+
+lottie-android
+
+Render After Effects animations natively on Android and iOS
+
+Louvre
+
+A small customizable library useful to handle an gallery image pick action built-in your app.
+
+Lemniscate
+
+An easy way to make your progress view nice and sleek.
+
+AwesomeBar
+
+Just beautiful
+
+PreviewSeekBar
+
+A SeekBar suited for showing a preview of something. As seen in Google Play Movies.
+
+proteus
+
+Proteus : JSON LayoutInflater with Data Bindings
+
+SpanEZ
+
+Wrapper on top of Spans so that you can add them to your strings with no problem
+
+Ristretto
+
+A short shot of Espresso
+
+excelPanel
+
+A two-dimensional RecyclerView，it can load historical data，it also can load more data。
+
+SopCastComponent
+
+来疯直播安卓控件，支持flv，支持rtmp，支持添加视频特效等等
+
+Aligned
+
+A tiny library for Android that makes putting text on baseline infinitely easier
+
+Wiggle
+
+A library for delayed scrolling
+
+sklad
+
+Android file storage library with encryption and streaming support
+
+desertplaceholder
+
+Animated placeholder in desert style.
+
+CameraFragment
+
+A simple easy-to-integrate Camera Fragment for Android
+
+Android-SwitchIcon
+
+Google launcher-style implementation of switch (enable/disable) icon
+
+GoogleMapsAnimations
+
+"GoogleMapsAnimations is an awesome android library to show radar and multiple types of circular ripple effects on google map.
+
+工具
+
+gradle-completion
+
+Gradle tab completion for bash and zsh
+
+XTest
+
+自动化测试工具，专业、易学、稳定高效、多机联测，为APP自动化测试量身打造
+
+书
+
+front-end-handbook-2017
+设计
+
+确定按钮该放在左边还是右边？
+
+无框界面
+
+如何在介面中設計排版(需要梯子)
+
+设计素材
+
+Flowchart Kit for Sketch
+
+Covalent Material Design Sketch Template
+
+技术之外
+
+探索外包开发的极限 • 一个精品App诞生的全过程（上）
+
+探索外包开发的极限 • 一个精品App诞生的全过程（下）
+
+好玩的
+
+git commit emoji 使用指南
+书
+
+每天最重要的2小時
+
+本書作者戴維斯告訴我們，企圖以效法電腦效率的方式來管理我們的時間，注定要失敗。他以淺顯易懂且有趣的文筆生動地解釋行為科學，告訴我們一天當中真正有效率的關鍵時刻，而且一樣重要的是，他也告訴我們如何用更好的方式，安排其他效率沒那麼好的平凡時刻。
+
+1368个单词就够了
+
+这本书是作者王乐平先生历时4年研发，在教学过程中更好的实现了本书思想的实际指导作用。这本书的基础在于：中国人背了多年的单词，学语法，练习听力和口语，参加了多种类型的考试，但由于缺乏语言环境，很多人在真正使用英语的时候，还是出现表达障碍。
+
+活动
+
+增长大咖面对面」GrowingIO 2017 增长大会
+
+GrowingIO 2017 增长大会，国内顶尖增长大会，立足前沿，引入全球更先进、更科学的理念革新和增长实践，全新角度更严谨、高效地驱动业务增长！
+
+AMP Roadshow技术分享路演中国专场报名开始了！
+
+Google 公司为了帮助更多的互联网公司加快对 AMP 技术的采纳，这个月开始在全球范围内十多个城市开始举办一个分享 AMP 技术的路演大会活动。来自 Google AMP 和网络技术团队的工程师们，将去全球很多城市进行技术分享。在这个全球分享活动中，Google 的技术专家还将专程来中国为中国的开发者们分享。今年的 12 月 5 日和 12 月 9 日，Google 开发技术推广部将在北京和上海分别举办一场 AMP Roadshow 活动。
+
+酷工作
+
+京东 Y 事业部诚招 Android 开发工程师
+
+北京／15k ~ 25k／六险一金／年终多薪／技术提升／企业文化／团建／双休／弹性上班时间
+
+天牛诚招高级Android 开发工程师
+
+上海／24k ~ 30k／绩效奖金/带薪年假/五险一金/岗位晋升/领导好/团队聚餐/股票期权/节日礼物/技能培训
+
+阿里巴巴国际无线技术部诚招 Android/iOS/服务端工程师
+
+杭州／20k－40k/六险一金／年终多薪／技术提升／企业文化／团建／双休／国际化团队/股票期权/美女帅哥如云/带薪年假
+
+上海即果信息技术有限公司急招 Android 开发工程师（全职/实习）
+
+上海／五角场创智天地／15k ~ 30k／五险一金／双休／弹性上班时间
+
+美团点评诚招 Android 开发工程师
+
+上海／成都 / 北京／15k ~ 25k／五险一金／年终多薪／技术提升／企业文化／团建／双休／弹性上班时间
+
+浙江学海教育科技有限公司诚聘高级 Android 开发工程师
+
+杭州／西溪软件园／15k-25k／五险一金／年终多薪／技术提升／企业文化／团建／双休
+
+北京青橙信息技术有限公司诚招 Android 工程师
+
+北京 798 艺术区／15 ~ 25K/补充医疗／年底双薪／旅游基金／健身基金／团建／双休／弹性上班时间
+
+北京顺势为快科技有限公司诚招 Android 开发工程师
+
+中关村大厦／15k ~ 30K／五险一金／企业文化／团建／弹性上班时间/硅谷范儿/带薪假期
